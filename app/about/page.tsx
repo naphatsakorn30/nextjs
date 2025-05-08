@@ -1,7 +1,7 @@
 import MenuBar from "@/components/MenuBar";
 import Footer from "@/components/Footer";
-export default function Home() {
-  return (
+export default function About() {
+    return (
 <div>
 <MenuBar/>
   {/*section 1*/}
@@ -21,8 +21,21 @@ export default function Home() {
     <a className="section2-contact-link kanit-semibold" href="https://github.com/">Github</a>
     <br />
   </div>
+  <div className="section3-box">
+    <div className="section3-box-a">
+      <h1 className="section3-box-header1 kanit-semibold">ประวัติการศึกษา</h1>
+      <p className="section3-box-content1 kanit-light">ประถมศึกษา: โรงเรียนวัดเซิดสำราญ
+      </p>
+      <p className="section3-box-content1 kanit-light">มัธยมศึกษา: โรงเรียนพานทองสภาชนูปถัมภ์</p>
+      <p className="section3-box-content1 kanit-light">ปวช.-ปวส.: วิทยาลัยเทคโนโลยีภาคตะวันออก(อี.เทค)</p>
+    </div>
+    <div className="section3-box-b">
+      <h1 className="section3-box-header2 kanit-semibold">ประสบการณ์ฝึกงาน</h1>
+      <p className="section3-box-content2 kanit-light">นักสืบครับ</p>
+      <p className="section3-box-content2 kanit-light">พนักงานสืบสวนคดีครับ</p>
+    </div>
+  </div>
   <Footer/>
-</div>
-
-  );
+  </div>
+    );
 }
